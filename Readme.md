@@ -1,4 +1,5 @@
 # AI-Generated Image and text using OpenAI and Stability AI
+![Screenshot from 2023-08-01 15-23-23](https://github.com/thalhazubair/AI-Gen-App/assets/63255420/91ad6328-ebbe-44d4-ab86-45f48bf2dd92)
 
 # Introduction
 
