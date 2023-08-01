@@ -1,26 +1,17 @@
-# AI-Generated Image and text using OpenAI and Stability AI
-![Screenshot from 2023-08-01 15-23-23](https://github.com/thalhazubair/AI-Gen-App/assets/63255420/91ad6328-ebbe-44d4-ab86-45f48bf2dd92)
+# Stable Diffusion and OpenAI API
+
+![Screenshot from 2023-08-01 19-27-28](https://github.com/thalhazubair/AI-Gen-App/assets/63255420/5b2cc554-8c29-439c-9939-7861a709dff0)
+
 
 # Introduction
 
-Welcome to the AI-Generated Image project!
 This repository contains the code for a web application that utilizes the OpenAI API to convert user input into descriptive sentences
 and the Stability AI API to generate images based on the user's requirements. 
 The backend of this application is built with Node.js, while the frontend is developed using React.
 
 # How it Works
 
-## The AI-Generated Image web application operates as follows:
-
-User Input Processing using OpenAI:
-
-The user provides input in natural language, asking questions or specifying their image requirements.
-The Node.js backend sends this user input to the OpenAI API to retrieve relevant text or sentences based on the user's query.
-Text Generation using OpenAI:
-
-The OpenAI API processes the user input and returns descriptive sentences or information as requested by the user.
-The Node.js backend receives this text from OpenAI and stores it for further processing.
-Image Generation using Stability AI:
+## Image Generation using Stability AI:
 
 The user's input and the descriptive text obtained from OpenAI are sent to the Stability AI API by the Node.js backend.
 Stability AI's API generates an image based on the user's requirements and sends it back to the backend.
@@ -28,6 +19,15 @@ Displaying the Result:
 
 The Node.js backend then serves the generated image to the React frontend.
 The React frontend displays the image to the user, allowing them to view and download the AI-generated image.
+
+## User Input Processing using OpenAI:
+
+The user provides input in natural language, asking questions or specifying their image requirements.
+The Node.js backend sends this user input to the OpenAI API to retrieve relevant text or sentences based on the user's query.
+Text Generation using OpenAI:
+
+The OpenAI API processes the user input and returns descriptive sentences or information as requested by the user.
+The Node.js backend receives this text from OpenAI and stores it for further processing.
 
 # Requirements
 
@@ -69,9 +69,9 @@ npm (v6.14.6 or newer)
 
 # Clone the repository
 
-`git clone git clone https://github.com/thalhazubair/OpenAi-StableDifusion_sample.git`
+`git clone git clone https://github.com/thalhazubair/AI-Gen-App.git`
 
-`cd OPENAI-STABLEDIFUSION_SAMPLE`
+`cd AI-Gen-App`
 
 # Environment Variables
 
