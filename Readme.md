@@ -57,4 +57,55 @@ Copy the API key and make sure to store it securely. You will use it to configur
 Once you have API keys, configure the backend (backend/app.js) with the OpenAI
 and Stability AI API keys to enable image in the web application.
 
+# Setup and Installation
+
+Here's how you can set up this project on your local machine.
+
+# Prerequisites
+
+Node.js (v12.18.3 or newer)
+npm (v6.14.6 or newer)
+
+# Clone the repository
+
+`git clone git clone https://github.com/thalhazubair/OpenAi-StableDifusion_sample.git`
+
+`cd OPENAI-STABLEDIFUSION_SAMPLE`
+
+# Environment Variables
+
+Create a .env file in the backend directory. Here's what you need:
+
+`stabilityAI=your_stability_api_ke`
+`openaiApiKey=your_openai_api_key`
+
+
+# Installing Dependencies
+
+Navigate to both the frontend and backend directories and run the following command:
+
+`npm install`
+
+# Running the Application
+
+To run the application, you need to start both the front-end and back-end servers.
+
+## Start the Backend Server
+
+Navigate to the backend directory and run the following command:
+
+`npm start`
+
+## Start the Frontend Server
+
+Navigate to the frontend directory and run the following command:
+
+`npm start`
+
+Open your browser and visit http://localhost:9000 to interact with the application.
+
+# Conclusion
+
+This project provides an insightful and practical way of understanding how to develop applications using generative AI. The aim is to inspire developers to imagine and create even more powerful and intelligent applications using the AI tools available today.
+
 # Make sure to keep your API keys confidential and avoid sharing them in public repositories or with unauthorized individuals.
